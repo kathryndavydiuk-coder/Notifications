@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+  margin: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  gap: 15px;
+}
+.orderButtons {
+  display: flex;
+  gap: 15px;
+  width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 15px;
+}
+form > input,
+.submit {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.orderButtons > button {
+  width: 100%;
+  padding: 3px;
+  background-color: rgb(119, 48, 48);
+  color: #fff;
+}
+.submit {
+  background-color: rgb(119, 48, 48);
+  color: #fff;
+}
